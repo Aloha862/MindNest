@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+
+# Build outputs
+dist/
+build/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and runtime outputs
+*.log
+runs/
+
+# User uploads and generated processing results
+**/app/uploads/original/*
+**/app/uploads/processed/*
+!**/app/uploads/original/.gitkeep
+!**/app/uploads/processed/.gitkeep
+
+# Model weights and generated ML artifacts
+*.pt
+*.onnx
+*.engine
+weights/
