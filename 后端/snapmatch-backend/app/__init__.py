@@ -1,1 +1,0 @@
-"""SnapMatch backend application package."""
