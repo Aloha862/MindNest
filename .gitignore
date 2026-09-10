@@ -39,4 +39,17 @@ runs/
 *.pt
 *.onnx
 *.engine
+mobileclip*.ts
 weights/
+
+# Release branch exclusions
+*.rar
+*.zip
+*.docx
+tmp/
+docs/
+前端页面/
+任务提交目录/
+素材/
+训练数据集/
+训练数据集_v2_5class/

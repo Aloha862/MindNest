@@ -1,0 +1,47 @@
+# MindNest root Python dependencies
+#
+# Install from the repository root:
+#   python -m venv .venv
+#   .\.venv\Scripts\activate
+#   pip install -r requirements.txt
+#
+# This file installs the Python/backend runtime and helper-script dependencies.
+# Frontend dependencies in MindNest-frontend/package.json must be installed with npm.
+
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+SQLAlchemy==2.0.36
+pydantic==2.10.4; python_version < "3.13"
+pydantic>=2.12.5; python_version >= "3.13"
+pydantic-settings==2.7.1
+pymysql==1.1.1
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-multipart==0.0.20
+python-dotenv==1.0.1
+
+numpy==1.26.4; python_version < "3.13"
+numpy>=2.2.0; python_version >= "3.13"
+opencv-python==4.10.0.84; python_version < "3.13"
+opencv-python>=4.13.0.92; python_version >= "3.13"
+Pillow==10.4.0; python_version < "3.13"
+Pillow>=12.0.0; python_version >= "3.13"
+
+openai==1.82.0
+python-docx==1.1.2
+reportlab==4.2.5
+requests==2.32.3
+PyMuPDF==1.24.14; python_version < "3.13"
+PyMuPDF>=1.27.2.3; python_version >= "3.13"
+
+# Optional real OCR engine:
+# paddleocr==2.10.0
+# paddlepaddle==2.6.2
+
+# Optional YOLO / YOLOE detector:
+# ultralytics
+# git+https://github.com/ultralytics/CLIP.git
+
+# Optional formula recognition engine:
+# pix2text
